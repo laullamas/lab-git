@@ -1,0 +1,40 @@
+======================================
+Cortando archivos fastq en paralelo
+======================================
+Tamaños ANTES del corte:
+-rw-rw-r--. 1 alumno09 alumno09 3.5M Dec 13 23:24 Sample1.fastq
+-rw-rw-r--. 1 alumno09 alumno09 3.2M Dec 13 23:24 Sample2.fastq
+-rw-rw-r--. 1 alumno09 alumno09 3.5M Dec 13 23:24 Sample3.fastq
+-rw-rw-r--. 1 alumno09 alumno09 3.2M Dec 13 23:24 Sample4.fastq
+
+Procesando archivos en paralelo...
+Usuario: alumno09 (divisor: 9)
+Archivo: Sample2.fastq
+Total líneas: 100000
+Líneas a mantener (1/9): 11111
+Usuario: alumno09 (divisor: 9)
+Archivo: Sample4.fastq
+Usuario: alumno09 (divisor: 9)
+Total líneas: 100000
+Archivo: Sample1.fastq
+Líneas a mantener (1/9): 11111
+Total líneas: 100000
+Líneas a mantener (1/9): 11111
+Usuario: alumno09 (divisor: 9)
+Archivo: Sample3.fastq
+Total líneas: 100000
+Líneas a mantener (1/9): 11111
+Archivo procesado correctamente
+Archivo procesado correctamente
+Archivo procesado correctamente
+Archivo procesado correctamente
+
+======================================
+Procesamiento completado
+======================================
+
+Tamaños DESPUÉS del corte:
+-rw-rw-r--. 1 alumno09 alumno09 390K Dec 13 23:29 Sample1.fastq
+-rw-rw-r--. 1 alumno09 alumno09 349K Dec 13 23:29 Sample2.fastq
+-rw-rw-r--. 1 alumno09 alumno09 390K Dec 13 23:29 Sample3.fastq
+-rw-rw-r--. 1 alumno09 alumno09 356K Dec 13 23:29 Sample4.fastq
